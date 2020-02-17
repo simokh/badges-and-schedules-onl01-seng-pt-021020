@@ -4,9 +4,10 @@ def badge_maker(name)
   end
 
 def batch_badge_creator(attendees)
-new_array = []
-array.each {|name| new_array << "Hello, my name is #{name}."}
-return new_array
+# new_array = []
+array.each do |name|
+  return "Hello, my name is #{name}."
+  end
 end
 # nuarray = []
 #  array.each do |name|
