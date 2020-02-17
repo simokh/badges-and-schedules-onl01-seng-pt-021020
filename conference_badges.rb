@@ -11,7 +11,7 @@ array.each do |name|
   return new_array
 end
 
-def room_assignments(array)
+def assign_rooms(array)
   new_array = []
   count = 1
   array.each do |name|
