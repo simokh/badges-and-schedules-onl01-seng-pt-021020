@@ -4,7 +4,7 @@ def badge_maker(name)
   end
 
 def batch_badge_creator(attendees)
-
-attendees.each_with_index {|count| return "Hello, my name is #{count}."}
+new_array = []
+attendees.each {|count| return "Hello, my name is #{count}."}
 
 end
